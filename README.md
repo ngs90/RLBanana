@@ -1,6 +1,6 @@
 ### Introduction
 
-This file contains instructions on how to setup your Python environment in order to be able to train and test a reinforcement learning agent on a modified version of the Unity game Banana.  
+This file contains instructions on how to setup your Python environment in order to be able to train and test a reinforcement learning agent on a modified version of the Unity game Banana. A description of the algorithm and results can be found [here](https://github.com/ngs90/RLBanana/blob/master/Report.md)
 
 ### Set up your Python environment: 
 * Install [Python 3.6.7](https://www.python.org/downloads/release/python-367/)
