@@ -6,7 +6,7 @@ import pickle
 import sys
 import torch
 from collections import deque
-from agent import AgentDQN, AgentPR
+from agents import AgentDQN, AgentPR
 import matplotlib.pyplot as plt
 
 

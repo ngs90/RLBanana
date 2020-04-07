@@ -119,7 +119,7 @@ if __name__ == '__main__':
 
     # Prioritized replay paramters - https://arxiv.org/abs/1511.05952
     alpha = [0.7] #0.5  # how to weigth the replay memory priority values pi_i, that is: P(i) = (p_i)^ALPHA / sum_k ( (p_k)^ALPHA )
-    beta = [0.5] #, 0.7]  # how much the Q-updates should be updated according to the natural (correct) sampling distribution instead of the prioritized sampling distribution. Full compensation toward the natural distribution if beta = 1. Zero compensation if beta= 0.
+    beta = [0.5, 0.6] #, 0.7]  # how much the Q-updates should be updated according to the natural (correct) sampling distribution instead of the prioritized sampling distribution. Full compensation toward the natural distribution if beta = 1. Zero compensation if beta= 0.
     eps = [1e-5] # Positive value to avoid edge cases of transitions to never be visited
 
     all_scores = []

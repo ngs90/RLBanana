@@ -3,7 +3,7 @@ import numpy as np
 # SUM Tree functions
 
 class Node:
-    # Based on: https://adventuresinmachinelearning.com/sumtree-introduction-python/
+    # The code is based on: https://adventuresinmachinelearning.com/sumtree-introduction-python/
     def __init__(self, left, right, is_leaf: bool=False, idx=None, insertion_time=None):
         self.left = left
         self.right = right

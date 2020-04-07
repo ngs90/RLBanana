@@ -126,7 +126,7 @@ where $N\_EPISODES$  is governed by the parameter `N_EPISODES=1000` and where $\
 
 ### Sum trees 
 
-As mentioned in [Prioritized Experience replay](https://arxiv.org/abs/1511.05952) we can't allow the the sampling time of the prioritized samples to run in time $O(BATCH\_SIZE)$ . Therefore we follow their advice and implementat a Sum tree data structure which allows us to sample from the replay memory in a prioritized fashion in time $O(\log_2(BATCH\_SIZE))$. The implementatin of the sum tree's are based on the guide [SumTree introduction in Python](https://adventuresinmachinelearning.com/sumtree-introduction-python/)
+As mentioned in [Prioritized Experience replay](https://arxiv.org/abs/1511.05952) we can't allow the the sampling time of the prioritized samples to run in time $O(BATCH\_SIZE)$ . Therefore we follow their advice and implementat a Sum tree data structure which allows us to sample from the replay memory in a prioritized fashion in time $O(\log_2(BATCH\_SIZE))$. The implementation and of the sum tree's are based on the guide [SumTree introduction in Python (7th of April 2020)](https://adventuresinmachinelearning.com/sumtree-introduction-python/)
 
 
 
