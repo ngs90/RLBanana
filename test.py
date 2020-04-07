@@ -55,6 +55,7 @@ if __name__ == '__main__':
     
     # Put in test mode
     env_info = env.reset(train_mode=False)[brain_name] 
+    env_info = env.reset(train_mode=False)[brain_name] 
     state = env_info.vector_observations[0]            # get the current state
     score = 0                                          # initialize the score
     while True:
