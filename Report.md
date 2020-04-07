@@ -136,21 +136,6 @@ The best model was found to be a model where $\alpha=0.7$ and $\beta=0.5$ which 
 
 ![alt text](results/model_result.png "Logo Title Text 1")
 
+The weights of the trained model can be found in `results\great_model.pth`
 
 
-
-### Pseudocode
-
-```python
-def lol:
-    s = "wolo"
-```
-
-$$ \frac{1}{100} $$
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | 1600 |
-| col 2 is      | centered      |   12 |
-| zebra stripes | are neat      |    1 |
